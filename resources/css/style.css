@@ -15,11 +15,23 @@ html h3 {
     font-size: 48px;
 }
 
+html h4 {
+    color: white;
+    font-size: 16px;
+}
 html a {
     text-decoration: none;
 }
+
+html p {
+    color: white;
+    font-size: 24px;
+}
 /*Navigation bar */
 
+.mobile-nav {
+    display:none;
+}
 nav {
     display: flex;
     justify-content: center;
@@ -29,6 +41,7 @@ nav {
     width: 100%;
     height: 200px;
 }
+
 
 .nav-items {
     display: flex;
@@ -65,7 +78,13 @@ nav {
     transition: background-color .2s, color .2s;
 }
 /*Nav Bar End*/
+/*individual Page Titles*/
 
+.project-title,
+.social-title,
+.partner-title {
+    display:none;
+}
 /*Home page banner */
 
 .banner {
@@ -81,6 +100,9 @@ nav {
     border-bottom: 3px solid rgb(140, 16, 144);
 }
 
+.mobile-banner {
+    display: none;
+}
 .banner-background {
     background-image: url("../Images/banner-background.jpg");
     background-size: cover;
@@ -148,3 +170,686 @@ main {
     border: 3px solid rgb(140, 16, 144);
     box-sizing: border-box;
 }
+
+
+/*Projects Page Start*/
+/*Double for emphases*/
+
+
+.iceviel {
+    display:flex;
+    width: 80%;
+    border: 3px solid rgb(140, 16, 144);
+    background-color: rgb(0, 17, 0);
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.iceviel-text {
+    display: flex;
+    width: 70%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.iceviel-text h3{
+    font-family: 'Brush Script MT (cursive)'
+}
+
+.iceviel-text h4 {
+    font-family: 'Brush Script MT (cursive)';
+    font-size: 24px;
+}
+.iceviel-text p {
+    line-height: 2;
+    font-family: 'Brush Script MT (cursive)';
+    font-size: 36px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.iceviel-img {
+    height: 750px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iceviel-img img {
+    height: 650px;
+    width: auto;
+    border: 3px solid rgb(140, 16, 144);
+    border-radius: 20px;
+}
+
+/*Dajak Music*/
+
+
+
+.daki {
+    display:flex;
+    width: 80%;
+    border: 3px solid rgb(140, 16, 144);
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 5%;
+    background-color: rgb(1, 21, 32); 
+    border-radius: 20px;
+}
+
+.daki-text {
+    display: flex;
+    width: 70%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.daki-text h3{
+    font-family: 'Arial'; 
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:  rgb(140, 16, 144);
+    font-size: 72px;
+}
+
+.daki-text p {
+    line-height: 2;
+    font-family: 'Brush Script MT (cursive)';
+    font-size: 36px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.daki-img {
+    height: 750px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.daki-img img {
+    height: 650px;
+    width: auto;
+    border: 3px solid rgb(140, 16, 144);
+    border-radius: 20px;
+}
+
+/*The damned of Ula*/
+
+
+.ula {
+    display:flex;
+    width: 80%;
+    border: 3px solid rgb(140, 16, 144);
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 15%;
+    background-color: rgb(83, 40, 11);
+    margin-bottom: 50px; 
+    border-radius: 20px;
+}
+
+.ula-text {
+    display: flex;
+    width: 70%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.ula-text h3{
+    font-family: 'Garamond'; 
+    -webkit-text-stroke-width: 3px;
+    font-size: 54px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.ula-text p {
+    line-height: 2;
+    font-family: 'Garamond';
+    font-size: 36px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+
+.ula-img {
+    height: 750px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ula-img img {
+    height: 650px;
+    width: auto;
+    border: 3px solid rgb(140, 16, 144);
+    border-radius: 20px;
+}
+
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid rgb(140, 16, 144)
+}
+footer img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.footer-text {
+    color: white;
+    display: flex;
+    flex-direction: flex-end;
+    margin-right: 10px;
+}
+
+.footer-text p {
+     font-size: 16px;
+}
+
+/*media queries for mobile*/
+
+/*home page*/
+
+@media only screen and (max-width: 800px) {
+    html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+html h2 {
+    font-size: 48px;
+}
+
+html h3 {
+    color: white;
+    font-size: 36px;
+}
+
+html h4 {
+    color: white;
+    font-size: 16px;
+}
+
+html p {
+    color: white;
+    font-size: 12px;
+}
+
+/*nav*/
+
+.desktop-nav {
+    display: none;
+}
+
+.close-btn {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+}
+
+
+/*THE BIG X BUTTON FOR NAV*/
+
+.close-btn::before,
+.close-btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 2px;
+    width: 24px;
+    background: rgb(71, 41, 158);
+    transform-origin: center;
+}
+
+.close-btn::before{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close-btn::after{
+    transform: translate(-50%, -50%) rotate(-45deg)
+}
+.mobile-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    background: rgba(8, 7, 7, 0.98);
+    border-right: 3px solid rgb(71, 41, 158);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.mobile-nav.open {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.mobile-nav-items {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mobile-nav-items h4 {
+    font-size: 36px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(71, 41, 158);
+
+}
+/*-------------*/
+
+
+/*NAV ICON CONTAINER*/
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.nav-icon.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+
+.nav-icon span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(71, 41, 158);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+/*banner*/
+.banner {
+    display: none;
+}
+
+.mobile-banner {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mobile-banner img {
+    height: 175px;
+    width: auto;
+}
+
+/*main*/
+
+main {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.main-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(71, 41, 158);
+    font-family: garamond;
+
+}
+.main-content h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: white;
+    font-size: 54px;
+
+}
+.main-content h3{
+    line-height: 1.25;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    font-size: 36px;
+
+
+}
+
+.main-img {
+   display: none;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    border-top: 3px solid rgb(71, 41, 158);
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.social-logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-text {
+    color: white;
+    display: flex;
+    margin-right: 5px;
+}
+
+.footer-text p {
+     font-size: 12px;
+
+}
+
+
+/*PROJECT MEDIA INQURIES*/
+.project-title,
+.social-title,
+.partner-title{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.project-title h2,
+.social-title h2,
+.partner-title h2 {
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+    color: rgb(71, 41, 158);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+.iceviel {
+    display:flex;
+    width: 100%;
+    border: 3px solid rgb(71, 41, 158);
+    background-color: rgb(0, 17, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+    border-radius: 20px;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.iceviel-text {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.iceviel-text h3{
+    font-family: 'Brush Script MT (cursive)';
+    white-space: normal;
+    word-break: break-word;
+    
+}
+
+.iceviel-text h4 {
+    font-family: 'Brush Script MT (cursive)';
+    font-size: 24px;
+    white-space: normal;
+    word-break: break-word;
+}
+.iceviel-text p {
+    font-family: 'Brush Script MT (cursive)';
+    font-size: 24px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.iceviel-img {
+    display: none;
+
+}
+
+.iceviel-img img {
+    display: none;
+}
+
+/*Dajak Music*/
+
+
+
+.daki {
+    display:flex;
+    width: 100%;
+    border: 3px solid rgb(71, 41, 158);
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(1, 21, 32); 
+    border-radius: 20px;
+}
+
+.daki-text {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+.daki-text h3{
+    font-family: 'Arial';
+    color: rgb(71, 41, 158); 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  white;
+    font-size: 48px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.daki-text p {
+    line-height: 2;
+    font-family: 'Brush Script MT (cursive)';
+    font-size: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    white-space: normal;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.daki-img {
+    display: none;
+    
+}
+
+.daki-img img {
+    display: none;
+}
+
+/*The damned of Ula*/
+
+
+.ula {
+    display:flex;
+    width: 100%;
+    border: 3px solid rgb(71, 41, 158);
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(83, 40, 11);
+    margin-bottom: 10px; 
+    border-radius: 20px;
+}
+
+.ula-text {
+    display: flex;
+    width: 100%;
+    height: 750px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+.ula-text h3{
+    font-family: 'Garamond'; 
+    -webkit-text-stroke-width: 1px;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.ula-text p {
+    line-height: 2;
+    font-family: 'Garamond';
+    font-size: 24px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.ula-img {
+    display: none;
+}
+
+.ula-img img {
+    display: none;
+}
+
+
+/*Partner Page*/
+
+.carlie {
+    display: flex;
+    background: rgb(29, 0, 32);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(71, 41, 158);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.carlie h2{
+    font-size: 42px;
+    text-align: center;
+    margin: 25px 0 0 0;
+    color: rgb(71, 41, 158);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+}
+.carlie img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid rgb(71, 41, 158);
+}
+
+
+
+}
+
+
+
